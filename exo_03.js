@@ -8,12 +8,12 @@ function check(tab, nb) {
     const numbers = new Set(); // Initialisation d'un ensemble vide pour stocker les nombre visiter au fur et a mesure.
   
     for (let i = 0; i < length; i++) {
-      const complement = nb - tab[i];
+        const complement = nb - tab[i];
 
-      if (numbers.has(complement)) { // Verifie si le complement obtenu est present dans l'ensemble numbers.
-        return true;
-      }
-      numbers.add(tab[i]); // ajoute chaque nombre visiter dans le tab a l'ensemble numbers.
+        if (numbers.has(complement)) { // Verifie si le complement obtenu est present dans l'ensemble numbers.
+            return true;
+        }
+        numbers.add(tab[i]); // ajoute chaque nombre visiter dans le tab a l'ensemble numbers.
     }
     
     return false;
