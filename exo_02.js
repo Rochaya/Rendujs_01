@@ -22,3 +22,4 @@ function checkNext(tab) {
 }
 
 console.log(checkNext(street1));
+console.log(checkNext(street2));
