@@ -21,5 +21,5 @@ function check(tab) {
     return result;
 }
 
-console.log(checkNext(street1));
-console.log(checkNext(street2));
+console.log(check(street1));
+console.log(check(street2));

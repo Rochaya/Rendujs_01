@@ -16,5 +16,5 @@ function check(tab, nb) {
     return false;
 }
 
-console.log(checkNext(numbers1, k));
-console.log(checkNext(numbers2, j));
+console.log(check(numbers1, k));
+console.log(check(numbers2, j));
